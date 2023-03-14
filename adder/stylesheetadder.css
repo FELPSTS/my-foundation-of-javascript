@@ -1,0 +1,70 @@
+body{
+    background-color: yellow;
+    text-align: center;
+    margin-top: 20%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.icon{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: black;
+    border: solid;
+    width: 50px;
+    height: 50px;
+    text-align: right;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif
+}
+.texticon{
+    padding-top: 20px;
+}
+
+.return{
+    display: inline;
+}
+
+a{
+    text-decoration: none;
+}
+
+button{
+    display: inline;
+    margin: 10px;
+    border: none;
+    background-color: white;
+    height: 40px;
+    
+    border-radius: 5px;
+    transform: 10s;
+    text-decoration: none;
+    box-shadow: 0px;
+}
+button:hover{
+    background-color: yellow;
+    height: 35px;
+}
+
+#somar{
+    border:none;
+    background-color: white;
+    margin-top: 25px;
+    height: 50px;
+}
+
+.inpsomador{
+    display:block;
+}
+
+input{
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 20px;
+    display: block;
+}
